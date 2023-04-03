@@ -25,7 +25,7 @@
                 <button class="btn btn-sm btn-success" @click="goToAddContact">
                     <i class="fas fa-plus"></i> Thêm mới
                 </button>
-
+                
                 <button
                     class="btn btn-sm btn-danger"
                     @click="removeAllContacts"
@@ -48,8 +48,7 @@
                     }"
                 >
                     <span class="mt-2 badge badge-warning">
-                        <i class="fas fa-edit"></i> Hiệu chỉnh</span
-                    >
+                        <i class="fas fa-edit"></i> Hiệu chỉnh</span>
                 </router-link>
 
             </div>
